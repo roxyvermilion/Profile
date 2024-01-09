@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    color:black;
+    text-align: center;
+}
+    
+header {
+    background-color: whitesmoke;
+    background-image: url('Background.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 100vw;
+    position: relative;
+    padding: 100px;
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.profile-bio {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 10px;
+    text-align: center;
+}
+
+section a {
+    text-decoration: none;
+    color: blue;
+}
+
+p.text {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2em;
+    text-align: justify;
+    padding: 0 1.4em;
+    letter-spacing: 0.02em;
+}
+
+.text-gradient {
+    font-size: 7vw;
+    text-align: center;
+    background: linear-gradient(to right, red, orange);
+    background-clip: text;
+    color: transparent;
+    margin: 0.5em 0;
+}
+
+.block {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.block-text {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#zoom-image {
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+}
+
+#zoom-image:hover {
+   transform: scale(1.2);
+}
+
+footer {
+    background-color: whitesmoke;
+    background-image: url('caveyla.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100vw;
+    position: relative;
+    padding: 100px;
+}
